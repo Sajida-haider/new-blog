@@ -19,7 +19,7 @@ const HomePage = async () => {
   }`;
 
   const blogs = await client.fetch(query);
-
+  
 
 
   return (
